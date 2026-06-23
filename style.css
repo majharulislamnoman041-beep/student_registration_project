@@ -1,8 +1,22 @@
 h1{
     font-size: 20px;
     font-weight: bold;
-    color: aqua;
+    color: rgb(24, 25, 25);
 }
 body{
-    background-color: gray;
+    background-color: rgb(120, 246, 143);
+    padding: 10px;
+    border-radius: 10;
+
+}
+
+form{
+
+    padding: 40px;
+    font-size: larger;
+    
+}
+.Signup{
+    margin-left:60px ;
+    
 }
