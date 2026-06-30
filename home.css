@@ -1,0 +1,20 @@
+*{
+    text-align: center;
+    background-color: rgb(191, 255, 127);
+}
+h1{
+    margin: 2pz;
+    padding: auto;
+    border: 2px solid;
+    background-color: aliceblue;
+}
+nav{
+    display: flex;
+    justify-self:center;
+    gap: 20px;
+}
+div{
+   display: flex;
+    justify-self:center;
+    gap: 20px;  
+}

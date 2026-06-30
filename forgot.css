@@ -3,7 +3,7 @@ form{
     height: 30vh;
     display: grid;
     place-items: center;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 body{
    background-color: aquamarine;
@@ -13,8 +13,9 @@ body{
 
 h1{
   text-align: center;
+
  
-  border: 3px solid rgb(239, 209, 152);
+  border: 2px solid rgb(239, 209, 152);
   background-color: rgb(244, 246, 249);
 
   line-height: 50px;
@@ -27,6 +28,7 @@ div button{
 }
 button,
 input[type="reset"]{
+  color: rgb(0, 149, 149);
     padding: 10px 20px;
-    border-radius: 2px;
+    border-radius: 10px;
 }

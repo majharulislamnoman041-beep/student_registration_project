@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Registration Form</title>
+    <link rel="stylesheet" href="student.css">
 </head>
 <body>
     
 
-<form action="">
 
+<div class="container">
 <h1 style="text-align: center;">Student Registration Form</h1>
+    <form action="">
+
+
 <br>
 
 
@@ -21,14 +25,11 @@
 <input type="text" placeholder="student Name.." required><br>
 
 <label for="">Student Email</label>
-<input type="email" placeholder="Student Eemil.." required><br>
+<input type="email" placeholder="Student Email.." required><br>
 
 <label for="">Department </label>
 <input type="text" placeholder=" Department.." required><br>
 <br>
-<label>Address</label><br>
-<textarea rows="5" cols="30"></textarea> 
-<br><br>
 
 <label for="">Select Your Gender </label>
 <input type="radio" name="gender"> male
@@ -50,7 +51,7 @@
 
 <label for="">Division</label>
 <select>
-<option > dhaka</option>
+<option > Dhaka</option>
 <option > Chattogram</option>
 <option > Khulna</option>
 <option > Rajshahi</option>
@@ -58,15 +59,23 @@
 
 </select>
 
+
+<br>
+<label>Address</label><br>
+<textarea rows="5" cols="30"></textarea> 
+<br>
+
 <br>
 <div style="text-align: center;">
     
-<input type="submit" >
+<a href="login.html"><button type="button">Login..</button></a>
 <input type="reset" value="Reset">
 </div>
+<br>   
 
 
 </form>
+
 
 </body>
 </html>

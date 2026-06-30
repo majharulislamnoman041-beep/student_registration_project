@@ -21,5 +21,12 @@ form{
 
 }
 div{
-
+  text-align: center;
+    margin-top: 10px;
+}
+body{
+     height: 100uh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
