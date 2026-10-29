@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #edc356;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-banking {
+    width: 500px;
+    background-color: white;
+
+    padding: 30px;
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+.mobile-banking h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.student-info {
+    background-color: #f5f6f8;
+    padding: 15px 20px;
+    border-radius: 8px;
+
+    margin-bottom: 25px;
+}
+
+.student-info p {
+    margin: 8px 0;
+}
+
+.mobile-banking h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.banking-option {
+    display: flex;
+    gap: 20px;
+
+    margin-bottom: 25px;
+}
+
+.banking-option label {
+    cursor: pointer;
+}
+
+.banking-option input {
+    margin-right: 5px;
+}
+
+.mobile-banking > label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.mobile-banking input[type="text"] {
+    width: 100%;
+    padding: 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+    margin-bottom: 18px;
+    outline: none;
+}
+
+.mobile-banking input[type="text"]:focus {
+    border-color: #333;
+}
+
+.mobile-banking button {
+    width: 100%;
+    padding: 13px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #222;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.mobile-banking button:hover {
+    transform: translateY(-2px);
+    opacity: 0.85;
+}

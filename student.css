@@ -5,32 +5,36 @@
 }
 
 body{
-    height: 100uh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background-color: aquamarine;
+    background-color: #f5f5f5;
 }
+
+form{
+    width: 650px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: rgb(230, 118, 7);
+    border-radius: 10px;
+}
+
 .container{
-    width: 450px;
-    margin: 50px auto;
+    width: 100%;
     padding: 25px;
     border-radius: 10px;
-
 }
 
 h1{
     text-align: center;
 }
-.btn{
-    margin-top: 20px;
-    display: flex;
-    justify-content: flex-end;
-    gap: 15px;
+
+.butt{
+    margin: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    
 }
 
-.btn input{
+.butt input , .butt button{
     padding: 10px 25px;
     cursor: pointer;
+    border-radius: 10px;
 }

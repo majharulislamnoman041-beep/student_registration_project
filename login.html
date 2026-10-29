@@ -4,43 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
  
 </head>
 <body>
     
 <form action="">
- <h1 style="text-align: center;">Student Registration</h1><br>
+    <h1 style="text-align: center;color: rgb(246, 246, 247);">Welcome Back</h1>
+ <h3 style="text-align: center; color: aliceblue;">Login to Your Account </h3><br>
 
-<label for="">  student Name</label>
+<div class="input">
+
+    <label for="" style="color: aliceblue">  student Name</label>
 <input type="text" placeholder="Name.." required>
 <br>
 
-<label for=""> Enter Your Email</label>
+<label for="" style="color: aliceblue;"> Enter Your Email</label>
 <input type="email" placeholder="Gmail.." required>
 <br>
 
-<label for=""> Enter Your password</label>
+<label for=""style="color: aliceblue;">Enter Your password</label>
 <input type="password" placeholder="password.." required>
-<br> 
 
-<div style="text-align:center">
-    <a href="forgot.html">Forgot Password?</a>
 </div>
-<input type="submit" value="Submit" onclick="location.href=' ##'" >
+
+<div style="text-align:center " class="border-2 caret-amber-50">
+ <a href="forgot.html" >Forgot Password?</a>
+</div>
+
+<div class="btn" class="button">
+   <input type="button" value="submit"
+       onclick="window.location.href='home.html'">
 <input type="reset" value="Reset">
-<br><br>
+</div>
+<br>  
 
 
 <!-- <div style="text-align: center;">
     <a href="">Singin</a>
 </div> -->
 
+<div class="Signup" class="button">
+    <label>New user → creates account</label>
+    <input type="button" value="Sign Up"
+       onclick="window.location.href='studentfile.html'">
+    
+    </div>
 </form>
 
-<div>
-    <label>New user → creates account</label>
-<input type="button" value="Sign Up"
-       onclick="window.location.href='studentfile.html'"></div>
+
 </body>
 </html>

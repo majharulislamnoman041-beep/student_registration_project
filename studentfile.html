@@ -1,81 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Registration Form</title>
     <link rel="stylesheet" href="student.css">
 </head>
+
 <body>
-    
 
 
-<div class="container">
-<h1 style="text-align: center;">Student Registration Form</h1>
     <form action="">
 
+        <div class="container">
+            <h1 style="text-align: center;">Student Registration Form</h1>
+
+
+
+            <br>
+
+
+            <label for="">Student ID</label>
+            <input type="number" placeholder="student ID.." required><br>
+
+            <label for="">Student Name</label>
+            <input type="text" placeholder="student Name.." required><br>
+
+            <label for="">Student Email</label>
+            <input type="email" placeholder="Student Email.." required><br>
+             <label for="">Student Number</label>
+            <input type="number" placeholder="student Number.." required><br>
+
+            <label for="">Department </label>
+            <input type="text" placeholder=" Department.." required><br>
+            <br>
+
+            <label for="">Select Your Gender... </label><br>
+            <input type="radio" name="gender"> male
+            <input type="radio" name="gender"> female
+            <input type="radio" name="gender"> other
+            <br><br>
+
+            <div class="skills label">
+                <label for="">Select Your skills </label><br>
+                <input type="checkbox"><label for="">HTML
+                    <input type="checkbox"><label for="">CSS <br>
+                        <input type="checkbox"><label for="">PHP
+                            <input type="checkbox"><label for="">PYTHON <br>
+                                <input type="checkbox"><label for="">DART
+                                    <input type="checkbox"><label for="">Flutter</label>
+                                    <input type="checkbox"><label for="">other</label>
+
+            </div>
+
+
+
+            <br><br>
+
+            <label for="">Division..</label>
+            <br>
+            <select>
+                <option> Dhaka</option>
+                <option> Chattogram</option>
+                <option> Khulna</option>
+                <option> Rajshahi</option>
+                <option> Barishal</option>
+
+            </select>
+
+
+            <br> <br>
+
+            <label>Present Address...</label><br>
+
+             <label for="">Student Father's Name</label>
+            <input type="text" placeholder="student Father's Name.." required><br>
+             <label for="">Student Mather's Name</label>
+            <input type="text" placeholder="student Father's Name.." required><br>
+<br>
+<label>Address...</label><br>
+            <textarea rows="5" cols="30"></textarea>
+            <br>
+
 
 <br>
+ <label for="">Blood Group..</label>
+            <br>
+            <select>
+                <option> O+ </option>
+                <option> O-</option>
+                <option> A+</option>
+                <option> B+</option>
+                <option> AB+</option>
+                <option> AB-</option>
+                <option> A-</option>
+                <option> B-</option>
 
-
-<label for="">Student ID</label>
-<input type="number" placeholder="student ID.." required><br>
-
-<label for="">Student Name</label>
-<input type="text" placeholder="student Name.." required><br>
-
-<label for="">Student Email</label>
-<input type="email" placeholder="Student Email.." required><br>
-
-<label for="">Department </label>
-<input type="text" placeholder=" Department.." required><br>
-<br>
-
-<label for="">Select Your Gender </label>
-<input type="radio" name="gender"> male
-<input type="radio" name="gender"> female
-<input type="radio" name="gender"> other
+            </select>
 <br><br>
+        
 
-<label for="">Select Your skills </label><br>
-<input type="checkbox"><label for="">HTML
-<input type="checkbox"><label for="">CSS
-<input type="checkbox"><label for="">PHP
-<input type="checkbox"><label for="">PYTHON
-<input type="checkbox"><label for="">DART
-<input type="checkbox"><label for="">Flutter</label>
+            <br>
+            <div style="text-align: center;" class="butt">
 
-
-
-<br><br>
-
-<label for="">Division</label>
-<select>
-<option > Dhaka</option>
-<option > Chattogram</option>
-<option > Khulna</option>
-<option > Rajshahi</option>
-<option > Barishal</option>
-
-</select>
+                <a href="login.html"><button type="button">Login..</button></a>
+                <input type="reset" value="Reset">
+            </div>
+            <br>
 
 
-<br>
-<label>Address</label><br>
-<textarea rows="5" cols="30"></textarea> 
-<br>
-
-<br>
-<div style="text-align: center;">
-    
-<a href="login.html"><button type="button">Login..</button></a>
-<input type="reset" value="Reset">
-</div>
-<br>   
-
-
-</form>
+    </form>
+  
 
 
 </body>
+
 </html>

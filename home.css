@@ -1,20 +1,135 @@
 *{
+    margin: 0;
+    padding: 0;
+   
+}
+.navigationbar{
+    background-color: lightblue;
+    height: 90px;
     text-align: center;
-    background-color: rgb(191, 255, 127);
+  
 }
-h1{
-    margin: 2pz;
-    padding: auto;
-    border: 2px solid;
-    background-color: aliceblue;
-}
-nav{
+.navigatonul{
     display: flex;
-    justify-self:center;
-    gap: 20px;
+    list-style: none;
+  gap: 10px;
+  justify-self: center;
 }
-div{
-   display: flex;
-    justify-self:center;
-    gap: 20px;  
+.navigatonul li{
+    background-color: rgb(154, 88, 3);
+    margin: 5px;
+    padding: 10px 15px;
+    color: black;
+    position: relative;
+    
 }
+.navigatonul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navigatonul li:hover{
+    background-color: brown;
+}
+.navigatonul li:hover a{
+    color: aliceblue;
+}
+.wlc{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.wlc:hover{
+    color: rgb(153, 85, 2);
+}
+
+
+.navigationbar h1:hover{
+    color: chocolate;
+}
+.sub_mune{
+    display: none;
+    position: absolute;
+background-color: rgb(0, 0, 0);
+top: 100%;
+
+    padding: 4px;
+border-radius: 10px;
+}
+.navigatonul li .sub_mune li{
+    background-color: rgb(232, 177, 105);
+    /* margin-top: 10px; */
+}
+.navigatonul li:hover .sub_mune{
+    display: block;
+}
+
+
+.features{
+   display: grid;
+   grid-template-columns: repeat(2,250px);
+   justify-content: center;
+   gap: 20px;
+   margin-top: 40px;
+
+   
+}
+.features div{
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+div .box{
+    background-color: rgb(154, 88, 3);
+    margin: 5px;
+    padding: 10px 15px;
+    color: black;
+    position: relative;
+    
+    
+}
+.box a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.box:hover{
+    background-color: rgb(228, 138, 22);
+
+  
+    font-weight: bold;
+}
+
+ .box:hover a{
+
+    color: rgb(0, 0, 0);
+}
+
+.addData{
+    font-weight: bold;
+   
+    background-color: rgb(228, 138, 22);
+    font-size: 30px;
+
+   
+   width: 30px;
+   height: 30px;
+   padding: 10px;
+   /* display: inline-block; */
+   text-align: center;
+   border-radius: 100px;
+
+
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   
+}
+.addData .floating{
+text-decoration: none;
+color: aliceblue;
+text-align: center;
+}
+
